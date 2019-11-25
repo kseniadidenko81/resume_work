@@ -2990,6 +2990,26 @@ input[type=range]::-ms-thumb {
 		opacity: 1;
 	}
 }
+@-webkit-keyframes sticky {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+	100% {
+		-webkit-transform: translateX(calc(-250px * 7));
+		transform: translateX(calc(-250px * 7));
+	}
+}
+@keyframes sticky {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+	100% {
+		-webkit-transform: translateX(calc(-250px * 7));
+		transform: translateX(calc(-250px * 7));
+	}
+}
 .zoomIn {
 	animation-name: zoomIn
 }

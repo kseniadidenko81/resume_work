@@ -16,17 +16,30 @@
 <!-- Page-->
 <div class="text-center page">
   <!-- Page preloader-->
-  <div class="page-loader">
+  <div id="preloader" class="preloader page-loader">
     <div>
       <div class="page-loader__body">
-        <div class="load__loader">
-          <div class="load__inner load-one"></div>
-          <div class="load__inner load-two"></div>
-          <div class="load__inner load-three"></div>
+
+        <div class="preloader__row load__loader">
+          <div class="preloader__item  load-one"></div>
+          <div class="preloader__item load-two"></div>
+          <div class="preloader__item load-three"></div>
         </div>
+
       </div>
     </div>
   </div>
+<!--  <div class="page-loader">-->
+<!--    <div>-->
+<!--      <div class="page-loader__body">-->
+<!--        <div class="load__loader">-->
+<!--          <div class="load__inner load-one"></div>-->
+<!--          <div class="load__inner load-two"></div>-->
+<!--          <div class="load__inner load-three"></div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 
   <header class="page-header header-home">
     <div class="navbar__wrap">
@@ -1689,6 +1702,16 @@
   $(settings.objModalCloseBtn).bind("click", function() {
     $(".modal").fadeOut();
   });
+</script>
+<!--Loader-->
+<script>
+  window.onload = function() {
+    document.body.classList.add("loaded_hiding");
+    window.setTimeout(function() {
+      document.body.classList.add("loaded");
+      document.body.classList.remove("loaded_hiding");
+    }, 2000);
+  };
 </script>
 
 </body>

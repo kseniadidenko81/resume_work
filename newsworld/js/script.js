@@ -1,7 +1,5 @@
 //Risize window  add-remove class---------------------------------------------
 
-
-
 (function($) {
 	var $window = $(window),
 		$nav = $('nav');

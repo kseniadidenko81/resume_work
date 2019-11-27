@@ -612,7 +612,7 @@ body::-webkit-scrollbar-thumb {
     bottom: 0;
 }
 .process {
-    background-image: url("../img/process.jpg");
+    background-image: url("../img/process1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -684,7 +684,7 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     cursor: pointer;
     height: 230px;
-    top: 18px;
+    top: 25px;
     overflow: hidden;
     margin: 0 auto 30px;
     border: 1px solid #666;

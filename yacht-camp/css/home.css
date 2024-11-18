@@ -865,6 +865,7 @@ nav .addittional-btn {
 @media (max-width: 991px) {
   .main-section img {
     border-radius: 0;
+    margin: auto;
   }
 }
 

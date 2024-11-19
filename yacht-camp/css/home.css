@@ -77,6 +77,8 @@ body {
   color: #011928;
   font-size: 18px;
   line-height: 26px;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -511,6 +513,7 @@ nav .addittional-btn {
 .navbar-brand img {
   max-width: 60%;
   transition: max-width 0.5s;
+  margin: 0 !important;
 }
 
 @media (min-width: 580px) {
@@ -837,13 +840,6 @@ nav .addittional-btn {
   }
 }
 
-/* @media (min-width: 576px) {
-  .content-section .col-lg-6:first-child {
-    max-width: 540px;
-    margin: auto;
-  }
-} */
-
 @media (max-width: 992px) {
   .content-section {
     max-width: 100%;
@@ -1065,13 +1061,14 @@ nav .addittional-btn {
     width: 182px;
     height: 53px;
     border-radius: 8px;
-    border: 1.5px solid #011928;
+    border: 1.5px solid #efedeb;
+    background: #efedeb;
     margin: auto;
     display: block;
   }
 
   .read-more-btn:hover {
-    border: 1.5px solid #011928;
+    border: 1.5px solid #efedeb;
   }
 }
 
